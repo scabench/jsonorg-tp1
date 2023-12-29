@@ -1,7 +1,7 @@
 ## json.org CVE-2022-45688 true positive
 
-The project illustrates CVE-2022-45688 -- there is a simple application
-XML2JSONConverter to read an XML file, convert it to JSON and 
+The project illustrates [CVE-2022-45688](https://nvd.nist.gov/vuln/detail/CVE-2022-45688)  in [json.org](https://mvnrepository.com/artifact/org.json/json/20220924) -- there is a simple application
+`XML2JSONConverter` to read an XML file, convert it to JSON and 
 pretty-print it to the console. 
 
 Using malicious input, the application crashes with a stackoverflow. 
