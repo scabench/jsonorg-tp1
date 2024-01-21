@@ -6,7 +6,7 @@ pretty-print it to the console.
 
 Using malicious input, the application crashes with a stackoverflow. 
 
-The test case `CVE202245688Test` illuistrates this behaviour, it 
+The test case `CVE202245688Test` illustrates this behaviour, it 
 can be executed by running `mvn test`.
 
 ### Running Software Composition Analyses
